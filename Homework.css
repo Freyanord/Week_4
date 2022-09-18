@@ -31,6 +31,7 @@ h1 {
 }
 text {
     font-family: 'Palatino Linotype', 'Roboto', serif;
+    font-weight: lighter;
 }
 logo {
 height: 48px;
