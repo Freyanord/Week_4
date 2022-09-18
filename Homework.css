@@ -25,9 +25,9 @@
 }
 h1 {
     position: absolute;
+    margin: 180px; 320px;
     width: 800px;  
     min-height: 148px; 
-    margin: 180px; 320px;
 }
 text {
     font-family: 'Palatino Linotype', 'Roboto', serif;
