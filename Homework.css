@@ -1,26 +1,29 @@
 .navigation-bar {
     position: absolute;
-    width: 1200px;  
-    min-height: 40px; 
-    line-height: 80px;
-    top: 20px;
-    left: 120px;
+    width: 1440px;  
+    height: 80px;
 }
+
 .mainlogo {
-    display: inline-block; 
-    vertical-align: top;
-    margin-right: 20px;
-    margin-top: 15px;
+    height: 40px;
+    width: 78px;
+    margin: 136px;
+    margin-right: 1226px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.navigation-bar > a {
+
+a.menu {
     color: #353732;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 20px;
-    height: 80px;        
+    position: relative;
+    height: 40px;
+    width: 220px;
+    left: 80.28%;
+    right: 1.33%;
+    top: 0px;
     font-family: Georgia,  Times, serif;
     font-style: normal;
-    float: right;
+    font-size: 15px;
     text-decoration: none;
 }
 h1 {
