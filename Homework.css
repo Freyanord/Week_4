@@ -1,13 +1,16 @@
 .navigation-bar {
+    position: absolute;
     width: 1440px;  
-    min-height: 80px;
-    display: block;
+    height: 80px;
 }
 
 .mainlogo {
     height: 40px;
     width: 78px;
-    margin: 20px 1226px 20px 136px;
+    margin: 136px;
+    margin-right: 1226px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 a.menu {
@@ -17,37 +20,25 @@ a.menu {
     width: 220px;
     left: 80.28%;
     right: 1.33%;
+    top: 0px;
     font-family: Georgia,  Times, serif;
     font-style: normal;
     font-size: 15px;
     text-decoration: none;
-    display: inline-block;
 }
-
 h1 {
     position: absolute;
-    height: 148px;
-    left: 22.22%;
-    right: 22.22%;
-    top: 180px;
+    margin: 180px 320px;
+    width: 800px;  
+    min-height: 148px; 
 }
-
-.text {
+text {
     font-family: 'Palatino Linotype', 'Roboto', serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 36px;
-    color: #353732;
+    font-weight: lighter;
 }
-
-.logo {
-    height: 48px;
-    left: 2%;
-    right: 86.25%;
-    top: calc(50% - 48px/2 - 50px);
-}
-
-.container {
-    width: 1440px;  
-    min-height: 1392px;
+logo {
+height: 48px;
+left: 2%;
+right: 86.25%;
+top: calc(50% - 48px/2 - 50px);
 }
